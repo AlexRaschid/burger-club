@@ -10,18 +10,19 @@
 }
 
 .navbar-nav li a{
-    color: #FFFFFF;
+    font-family: "Rubik";
+    color: white;
 }
 
 
 .navbar-brand {
+    
     color: #FFFFFF;
 }
 
-.jumbotron {
+#myCarousel {
 	padding: 100px;
 	height: 500px;
-	background-image: url(http://ucdintegrativemedicine.com/wp-content/uploads/Aug-21_BurgerDay_Header8CUTFB2_35406006.png)
 }
 
 .jumbotron h1{
@@ -111,6 +112,8 @@ img {
     background-color: #FFFFFF;
 }
 
- p {
-    
- }
+p, 
+h1,h2,h3,h4,h5,h6{
+    font-family: "Rubik";
+    color: white;
+}
