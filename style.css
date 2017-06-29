@@ -16,8 +16,8 @@
 
 
 .navbar-brand {
-    
-    color: #FFFFFF;
+    font-family: "Rubik";
+    color: white;
 }
 
 #myCarousel {
@@ -116,4 +116,23 @@ p,
 h1,h2,h3,h4,h5,h6{
     font-family: "Rubik";
     color: white;
+}
+
+.footer{
+    padding: 75px;
+    
+}
+
+#SignIn{
+    background-color: white;
+    color: black;
+    
+}
+
+.modal-content{
+    background-color: #D62F01;
+}
+
+#indexBody{
+    background-color: black;
 }
