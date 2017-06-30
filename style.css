@@ -12,12 +12,16 @@
 .navbar-nav li a{
     font-family: "Rubik";
     color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 
 .navbar-brand {
     font-family: "Rubik";
     color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 #myCarousel {
@@ -116,6 +120,7 @@ p,
 h1,h2,h3,h4,h5,h6{
     font-family: "Rubik";
     color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .footer{
@@ -125,7 +130,8 @@ h1,h2,h3,h4,h5,h6{
 
 #SignIn{
     background-color: white;
-    color: black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
     
 }
 
@@ -133,6 +139,42 @@ h1,h2,h3,h4,h5,h6{
     background-color: #D62F01;
 }
 
-#indexBody{
+#indexBody{ 
     background-color: black;
+}
+
+#rssIcon:hover{
+  text-shadow: 2px 2px #fff;
+  box-shadow: 18px 18px 10px #000;
+  animation: bounce 1s infinite ease;
+}
+#twitterIcon:hover{
+  text-shadow: 2px 2px #fff;
+  box-shadow: 18px 18px 10px #000;
+  animation: bounce 1s infinite ease;
+}
+#facebookIcon:hover{
+  text-shadow: 2px 2px #fff;
+  box-shadow: 18px 18px 10px #000;
+  animation: bounce 1s infinite ease;
+}
+#flickrIcon:hover{
+  text-shadow: 2px 2px #fff;
+  box-shadow: 18px 18px 10px #000;
+  animation: bounce 1s infinite ease;
+}
+#linkedinIcon:hover{
+  text-shadow: 2px 2px #fff;
+  box-shadow: 18px 18px 10px #000;
+  animation: bounce 1s infinite ease;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-10px);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
 }
